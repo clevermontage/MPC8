@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('me.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the whole image is visible */
+    color: #fff;
+}
+
+.birthday-card {
+    /*background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background */
+    
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-align: center;
+   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);*/
+}
+
+.birthday-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.birthday-card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.font{
+    color: white;
+    text-decoration: none;
+}
